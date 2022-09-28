@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro-inner{
     width: 100%;
-    min-width: 880px;
+    max-width: 880px;
     margin: 0 auto;
     color: #fff;
     text-align: center;
@@ -155,9 +155,15 @@ h1, h2, h3, h4, h5, h6 {
 /*Slider*/
 
 .slider{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.slider_inner{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
 }
 
 .slider_item{
