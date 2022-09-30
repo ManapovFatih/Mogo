@@ -399,6 +399,20 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
 }
 
+/*wedo*/
+
+.wedo{
+    display: flex;
+}
+
+.wedo_item{
+    width: 50%;
+    
+}
+
+.wedo_title{
+    
+}
 
 
 
