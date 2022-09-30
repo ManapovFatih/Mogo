@@ -207,6 +207,7 @@ h1, h2, h3, h4, h5, h6 {
     background: url(/assets/images/section4/3.jpg) center no-repeat;
     background-size: cover;
     padding-bottom: 0;
+    margin-bottom: 40px;
 }
 .section_header{
     width: 100%;
