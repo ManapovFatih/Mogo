@@ -203,6 +203,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 80px 0;
  }
 
+ .section--design{
+    background: url(/assets/images/section4/3.jpg) center no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+}
 .section_header{
     width: 100%;
     max-width: 950px;
@@ -237,7 +242,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .section_text{
     color: #999;
-    font-size: 15px ;
+    font-size: 15px;
+    
+    font-family: 'Roboto', sans-serif;
 }
 
 /*About*/
@@ -369,7 +376,27 @@ h1, h2, h3, h4, h5, h6 {
     margin: 50px 0;
 }
 
+/*Design*/
 
+.design_item{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    right: 30px;
+}
+
+.design_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.design_img--iphone{
+    position: absolute;
+    bottom: -75px;
+    right: -160px;
+    z-index: 1;
+}
 
 
 
